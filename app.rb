@@ -43,5 +43,9 @@ class App < Sinatra::Base
      number1 + number2
    elsif opertion == 'subtract'
      number1 - number2
-   elsif operation
+   elsif operation == 'multiply'
+     number1 * number2
+   else
+     number1/number2
+   end
 end
