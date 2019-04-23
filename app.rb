@@ -41,7 +41,7 @@ class App < Sinatra::Base
    case params[:operation]
    when 'add'
      (number1 + number2).to_s
-   elsif opertion == 'subtract'
+   when 'subtract'
      (number1 - number2).to_s
    elsif operation == 'multiply'
      (number1 * number2).to_s
