@@ -43,7 +43,7 @@ class App < Sinatra::Base
      (number1 + number2).to_s
    elsif 'subtract'
      (number1 - number2).to_s
-   elsif operation == 'multiply'
+   elsif 'multiply'
      (number1 * number2).to_s
    elsif operation == 'divide'
      (number1/number2).to_s
