@@ -28,8 +28,6 @@ class App < Sinatra::Base
     result = ''
     # result = []
     #result.join(' ') + "."
-  
-
     params.each do |key, value|
       result += "#{value} "
     end
