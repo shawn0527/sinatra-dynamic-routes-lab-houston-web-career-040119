@@ -41,11 +41,11 @@ class App < Sinatra::Base
    operation = params[:operation]
    if operation == 'add'
      (number1 + number2).to_s
-   elsif 'subtract'
+   elsif opeartion == 'subtract'
      (number1 - number2).to_s
-   elsif'multiply'
+   elsif operation == 'multiply'
      (number1 * number2).to_s
-   elsif 'divide'
+   elsif operation == 'divide'
      (number1/number2).to_s
    end
  end
