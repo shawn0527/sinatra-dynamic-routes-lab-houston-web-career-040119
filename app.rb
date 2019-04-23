@@ -48,4 +48,5 @@ class App < Sinatra::Base
    else
      number1/number2
    end
+ end
 end
