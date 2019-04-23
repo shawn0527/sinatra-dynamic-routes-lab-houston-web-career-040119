@@ -35,4 +35,10 @@ class App < Sinatra::Base
     result
   end
 
+  get '/:operation/:number1/:number2'
+   number1 = params[:number1]
+   number2 = params[:number2]
+   operation = params[:operation]
+   if operation == 'add'
+     number1 + number2
 end
