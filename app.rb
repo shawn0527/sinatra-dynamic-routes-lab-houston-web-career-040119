@@ -46,7 +46,7 @@ class App < Sinatra::Base
    elsif operation == 'multiply'
      (number1 * number2).to_s
    else
-     number1/number2
+     (number1/number2).to_s
    end
  end
 end
